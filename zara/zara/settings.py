@@ -108,3 +108,6 @@ DOWNLOAD_DELAY = 4
 REQUEST_FINGERPRINTER_IMPLEMENTATION = "2.7"
 TWISTED_REACTOR = "twisted.internet.asyncioreactor.AsyncioSelectorReactor"
 FEED_EXPORT_ENCODING = "utf-8"
+FEED_EXPORTERS = {
+    "xlsx": "scrapy_xlsx.XlsxItemExporter",
+}
