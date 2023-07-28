@@ -1,3 +1,6 @@
+Тестовое задание парсинг интернет магазина ZARA
+
+
 1.Установите зависимости
 ```bash
 python -m pip install -r requirements.txt
